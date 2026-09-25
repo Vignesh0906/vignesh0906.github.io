@@ -1,0 +1,19 @@
+# Site Settings
+title: Your Name | Portfolio & Blog
+description: A personal website showcasing my software development projects and thoughts.
+url: "https://your-username.github.io" # Replace with your actual GitHub Pages URL
+
+# Build configuration
+theme: jekyll-theme-minimal # A clean, fast default theme provided by GitHub
+
+# Personal Info (used by some themes to generate sidebar details)
+author: Your Name
+email: your_email@example.com
+twitter_username: your_twitter_handle
+github_username: your_username
+
+# Exclude these files from being built into the final website
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
