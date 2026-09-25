@@ -1,18 +1,39 @@
 # Site Settings
-title: Your Name | Portfolio & Blog
-description: A personal website showcasing my software development projects and thoughts.
-url: "https://vignesh0906.github.io" # Replace with your actual GitHub Pages URL
+title: Vignesh | Brain Data & AI
+description: Exploring the intersection of Neuroscience and Artificial Intelligence.
 
-# Build configuration
-theme: jekyll-theme-minimal # A clean, fast default theme provided by GitHub
+url: "https://vignesh0906.github.io"
+baseurl: ""
 
-# Personal Info (used by some themes to generate sidebar details)
-author: Vignesh A K
-email: vignesh090601@gmail.com
-twitter_username: your_twitter_handle
-github_username: your_username
+# Hydejack 9.2.1
+remote_theme: hydecorp/hydejack@v9.2.1
 
-# Exclude these files from being built into the final website
+# Author
+author:
+  name: Vignesh A K
+  email: vignesh090601@gmail.com
+  social:
+    github: vignesh0906
+
+# Hydejack settings
+accent_image: /assets/img/sidebar-bg.jpg
+
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+
+# Plugins required for GitHub Pages / Hydejack
+plugins:
+  - jekyll-include-cache
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year-:month-:day-:title/
+
 exclude:
   - README.md
   - Gemfile
