@@ -19,12 +19,22 @@ author:
 accent_image: /assets/img/sidebar-bg.jpg
 
 menu:
-  - title: Home
+  - title: Welcome
     url: /
   - title: About
     url: /about/
-  - title: Blog
+  - title: CV
     url: /blog/
+  - title: Research
+    url: /Research/
+  - title: Publications
+    url: /Publications/
+  - title: Open source projects
+    url: /Open source projects/
+  - title: Community Involvement
+    url: /Community Involvement/
+  - title: Contact
+    url: /Contact/
 
 # Plugins required for GitHub Pages / Hydejack
 plugins:
