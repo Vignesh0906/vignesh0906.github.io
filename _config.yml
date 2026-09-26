@@ -23,8 +23,8 @@ menu:
     url: /
   - title: About
     url: /about/
-  - title: CV
-    url: /assets/Vignesh_AK_Resume.pdf
+  - title: Resume
+    url: /resume/
   - title: Research
     url: /Research/
   - title: Publications
