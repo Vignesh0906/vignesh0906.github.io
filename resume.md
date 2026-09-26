@@ -1,3 +1,15 @@
+<button id="theme-toggle" aria-label="Toggle light/dark mode">
+  ☀️ / 🌙
+</button>
+
+<script>
+  const btn = document.getElementById('theme-toggle');
+
+  btn.addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark-mode');
+  });
+</script>
+
 ---
 layout: page
 title: Resume
